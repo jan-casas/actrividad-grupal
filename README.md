@@ -2,6 +2,16 @@
 
 Este proyecto es un simulador que muestra cómo MIPS realiza cálculos de interpolación lineal, visualizando el flujo de datos entre memoria y registros.
 
+![Diagrama de Memoria MIPS](docs/front.png)
+
+## Concepto
+
+El simulador implementa el proceso de interpolación lineal en MIPS, mostrando:
+- Cómo se almacenan los valores en la memoria (.data)
+- El uso de registros $s0-$s4 para valores de entrada
+- Cálculos intermedios en registros temporales $t0-$t4
+- Visualización del flujo de datos entre memoria y registros
+
 ## Requisitos Previos
 
 - Python 3.8 o superior
